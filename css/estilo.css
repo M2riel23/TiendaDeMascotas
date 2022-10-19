@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-header{
+    height: 4em;
+    display: flex;
+    position: relative;
+    background-color: rgb(186, 226, 146);  
+}
+.logo{
+    position: absolute;
+    left: 5%;
+}
+.ingreso{
+    display: flex;
+    height: 2em;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    margin-top: -1em;
+}
+
+
+.ingreso li{
+    display: inline-block;
+    border:  1px solid black;
+    border-radius: 5px;   
+}
+.ingreso a{
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+.nav-container{
+    height: 4em;
+    display: flex;
+    background-color: rgb(175, 141, 206);  
+}
+.nav-container li {
+    display: inline-block;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 50px;  
+}
+.nav-container ul{
+    position: absolute;
+    left: 10%;
+    height: 2em;
+    padding-top: 1em;    
+}
+
+.nav-container a{
+    text-decoration: none;
+    padding: 4rem;
+
+}  
+#cont-item-carousel{
+    border: 2px solid black;
+    height: 80vh;
+    overflow: hidden;
+    margin: 1em 1em 1em 1em;
+}
+.item-carousel-container{
+    border: 1px solid black;
+    height: 100%;
+    position: relative;     
+}
+
+.img-carousel{
+    grid-area: img-carousel;
+    /*background-color: darkgoldenrod;*/
+    height: 100%;
+}
+.imagen-container{
+    grid-area: imagen;
+    background-color: antiquewhite;
+    height: 85%;
+    width: 60%;
+    position: absolute;
+    left: 17em;
+    top: 1.5em; 
+    border-radius: 1em;   
+}
+.imagen-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.botones{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;  
+}
+.botones a{
+    text-decoration: none;
+}
+.botones i{
+    color: black;
+    font-size: 30px;
+}
+
+
+.marcas{
+    border: 3px solid rgb(28, 28, 95);
+    margin-top: 0.5em;
+    height: 50vh;
+    width: 70vw;
+    margin-left: 12em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.marcas div {
+    background-color: coral;
+    width: 23%;
+    height: 40%;
+    
+
+}
+.cont-marcas img{
+    width: 100%;
+    height: 100%;
+}
+.productos-vendidos{
+    border: 2px solid rgb(98, 197, 98);
+    margin-top: 0.8em;
+    height: 150vh;
+    width: 70vw;
+    margin-left: 12em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.productos-vendidos div{
+    background-color: rgb(189, 178, 178);
+    width: 23%;
+    height: 32%;
+    
+}
+
+.cont-productos div{
+    background-color: rgb(52, 52, 151);
+    width: 23%;
+    height: 100%;
+    
+
+}
