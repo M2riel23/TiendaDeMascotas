@@ -35,28 +35,24 @@
 }
 
 .nav-container{
-    height: 4em;
+    height: 4.5em;
     display: flex;
-    background-color: rgb(175, 141, 206);  
+    background-color: rgb(175, 141, 206);
+    justify-content: center;
+    align-items: center; 
 }
 .nav-container li {
     display: inline-block;
     height: 1.5rem;
-    border: 1px solid black;
-    border-radius: 50px;  
+    background-color: aliceblue;
+    border: 2px solid black; 
 }
-.nav-container ul{
-    position: absolute;
-    left: 10%;
-    height: 2em;
-    padding-top: 1em;    
-}
-
 .nav-container a{
     text-decoration: none;
-    padding: 4rem;
+    padding: 3rem;
 
-}  
+}
+
 #cont-item-carousel{
     border: 2px solid black;
     height: 80vh;
