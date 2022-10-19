@@ -3,13 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #d7e6ec;
+}
 .container-header{
-    height: 4.5em;
+    height: 6em;
     display: flex;
-    background-color: rgb(186, 226, 146);
+    background-color: #094D9A;
     justify-content: space-between;
     align-items: center;
-    padding: 0em 1em 0em 1em;    
+    padding: 0em 1em 0em 5em;    
+}
+.logo{
+    height: 70%;
+    width: 10%;
+    
+
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.tienda h1{
+    color: #9CDEF9;
+    padding-right: 5em;
 }
 
 .ingreso li {
@@ -25,7 +42,7 @@
 .nav-container{
     height: 4.5em;
     display: flex;
-    background-color: rgb(175, 141, 206);
+    background-color: #8A9DCA;
     justify-content: center;
     align-items: center; 
 }
@@ -128,15 +145,13 @@
     background-color: rgb(189, 178, 178);
     width: 23%;
     height: 32%;
+    text-align: center;
     
 }
 
-.cont-productos div{
-    background-color: rgb(52, 52, 151);
-    width: 23%;
-    height: 100%;
-    
-
+.productos-vendidos img {
+    width: 100%;
+    height: 75%;
 }
 .cont-footer{
     display: flex;
@@ -144,7 +159,17 @@
     border: 1px solid rgb(102, 10, 87);
     height: 30vh;
     justify-content: space-around;
+    background-color: #094D9A;
 }
 .cont-footer div h3{
     padding-top: 1em;
+    
+    color: #9CDEF9;
+
+}
+.contact-what{
+    background-color: #8A9DCA;
+}
+.medio-pago{
+    background-color: #8A9DCA;
 }
