@@ -150,28 +150,57 @@ body{
     width: 100%;
     height: 100%;
 }
+.produc-titulo{
+    color: #094D9A;
+    padding-left: 2.3em;
+    margin-bottom: 1em;
+    font-family: 'Signika Negative', sans-serif;
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+}
 .productos-vendidos{
-    border: 2px solid rgb(98, 197, 98);
-    margin-top: 0.8em;
-    height: 150vh;
+   /* border: 2px solid rgb(98, 197, 98);*/
+    margin-top: 0.6em;
+    height: 180vh;
     width: 70vw;
     margin-left: 12em;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center; 
+    align-items: center;
+   /* background-color: rgba(255, 255, 255, 0.644);*/
+    border-radius: 0.5em;
 }
+
 .productos-vendidos div{
-    background-color: rgb(189, 178, 178);
+    background-color: rgba(255, 255, 255, 0.644);
     width: 23%;
     height: 32%;
     text-align: center;
+    border-radius: 0.5em;
+    border: 0.1em solid #8A9DCA;
     
 }
 
 .productos-vendidos img {
     width: 100%;
-    height: 75%;
+    height: 73%;
+}
+.precio{
+    font-family: 'Signika Negative', sans-serif;
+    color: #094D9A;
+}
+.boton-comprar{
+    background-color: #094D9A;
+    color: #9CDEF9;
+    width: 9em;
+    height: 2.1em;
+    margin-top: 0.5em;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 0.5em;
+    
 }
 .cont-footer{
     display: flex;
