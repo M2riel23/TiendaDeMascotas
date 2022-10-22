@@ -10,7 +10,7 @@ body{
     height: 6em;
     display: flex;
     background-color: #094D9A;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: center;
     padding: 0em 2em 0em 5em;    
 }
@@ -29,7 +29,8 @@ body{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 3.1em;
     color: #9CDEF9;
-    padding-left: 1em;
+    margin-left: 5.5em;
+    
     
 }
 
@@ -60,11 +61,14 @@ body{
 }
 .nav-container a{
     text-decoration: none;
-    padding: 2.1rem;
+    padding: 2rem;
     color: #094D9A;
     font-size: 1.3em;
     font-family: 'Signika Negative', sans-serif;
 
+}
+.nav-container a:hover{
+    color: #9CDEF9;
 }
 
 #cont-item-carousel{
@@ -209,38 +213,89 @@ body{
     
 }
 .cont-footer{
-    display: flex;
-    margin-top: 1em;
+    
+    margin-top: 5em;
     border: 1px solid rgb(102, 10, 87);
     height: 30vh;
-    justify-content: space-around;
-    background-color: #094D9A;
+  
+   
 }
-.cont-footer div h3{
+/*.cont-footer div h3{
     padding-top: 1em;
     
     color: #9CDEF9;
 
-}
-.contact-what{
-    background-color: #8A9DCA;
+}*/
+.contact{
+    display: flex;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 1.1em;
-    padding-left: 1em;
+    font-size: 1em;
+   /* padding-left: 1em;*/
     margin-top: 0.8em;
-    margin-bottom: 1.3em;
+   /* margin-bottom: 1.3em;*/
     color: #094D9A;
+    justify-content: space-evenly;
 }
-.medio-pago{
-    background-color: #8A9DCA;
+/*.medio-pago{
+   
     margin-top: 0.8em;
     border-radius: 0.5em;
-}
+}*/
 .medio-pago p{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 1.1em;
-    padding-left: 3em;
+    /*font-size: 1.1em;*/
+    /*padding-left: 3em;
     margin-top: 0.8em;
-    margin-bottom: 1.3em;
+    margin-bottom: 1.3em;*/
     color: #094D9A;
+}
+.derechos{
+    display: flex;
+    justify-content: center;
+    padding-top: 6em;
+    margin-top: 1em;
+    
+}
+.derechos h5{
+    font-family: 'Signika Negative', sans-serif;
+    color: #094D9A;
+}
+#check, .checkbtn{
+    display: none;
+}
+@media only screen and (max-width:700px){
+    .tienda h1 {
+        font-size: 1.5em;
+    }
+    .logo{
+        width: 12%;
+    }
+    #check:not(:checked) , nav ul {
+        display: none;
+    }
+    #check:checked , nav ul{
+        display: block;
+    }
+    .checkbtn{
+        display: block;
+        position: absolute;
+        right: 1em;
+    }
+    .checkbtn img{
+        width: 2.2em;
+        padding-bottom: 3em;
+    }
+    #check:hover{
+        color: #094D9A;
+        background: #9CDEF9;
+    }
+    #menu-cerrar{
+        display: none;
+    }
+    #check:checked ~ label #menu-abrir{
+        display: none;
+    }
+    #check:checked ~ label #menu-cerrar{
+        display: block;
+    }
 }

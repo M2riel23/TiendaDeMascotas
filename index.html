@@ -22,22 +22,30 @@
             <div class="tienda">
                 <h1>Tienda De Mascotas</h1> 
             </div> 
-        <div class="ingreso">     
+       <!--<div class="ingreso">     
                 <li><a href="ingresar.html">Ingresar</a></li>
                 <li><a href="registrarte.html">Registrarse</a></li>    
-        </div>
+        </div>--> 
 
     </header>
     
     <nav class="nav-container">
         
-            <li><a href="index.html">Inicio</a> </li>
+        <ul>  
+            <li ><a class="active" href="index.html">Inicio</a> </li>
             <li><a href="gatos.html">Gatos</a></li>
             <li><a href="perros.html">Perros</a></li>
             <li><a href="aves.html">Aves</a></li>
             <li><a href="peces.html">Peces</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="sucursales.html">Sucursales</a></li>
+        </ul> 
+        
+        <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i id="menu-abrir"><img src="imagenescss/image2.webp" alt=""></i>
+                <i id="menu-cerrar">X</i>
+            </label>
         
     </nav>
     <main id="cont-item-carousel">
@@ -185,20 +193,26 @@
             </div>
     </section>
     <footer class="cont-footer">
-        <div class="contact-what">
-        <h4>Contactanos por Whatsapp</h4>
+        <div class="contact">
+        <div>
+            <h4>Contactanos por Whatsapp</h4>
             <i class="fa-brands fa-whatsapp"></i>
         </div>
         <div>
-        <i class="fa-brands fa-whatsapp"></i>
-            <h3> Derechos Reservados 2022</h3>
-    </div>
+            <h4>Seguinos</h4>
+        </div>
         <div class="medio-pago">
-            <p> Medios de pago</p>
-            <img src="imagenescss/medios-de-pago.png" alt="medios de pago">
+            <h4> Medios de pago</h4>
+            <!--<img src="imagenescss/medios-de-pago.png" alt="medios de pago">-->
             
             </div>
         </div>
+        <div class="derechos">
+        
+            <h5>@2022 Todos los Derechos Reservados</h5>
+    </div>
+        
+        
 
     </footer>       
     
