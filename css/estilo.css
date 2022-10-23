@@ -290,19 +290,23 @@ body{
     .marcas{
         margin-left: 0;
         width: 100vw;
-        margin-bottom: 42em;
+        height: 100vh;
+        margin-bottom: 28em;
     }
     .marcas div{
         width: 100%;
+        height: 20%;
     }
     .productos-vendidos{
         margin-left: 0;
         width: 100vw;
-        margin-bottom: 50em;
+        height: 150vh;
+        margin-bottom: 12em;
 
     }
     .productos-vendidos div{
         width: 100%;
+        height: 50%;
     }
     .cont-footer{
         margin-top: 20em;
