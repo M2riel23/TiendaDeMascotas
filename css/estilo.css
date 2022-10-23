@@ -267,7 +267,7 @@ body{
 @media only screen and (max-width:700px){
     #cont-item-carousel{
         height: 50vh;
-        width: 100vw;
+        width: 95vw;
         margin: 0.5em 0 0.5em 0;
     }
     .imagen-container{
@@ -289,12 +289,13 @@ body{
     }
     .marcas{
         margin-left: 0;
-        width: 100vw;
+        width: 95vw;
         height: 220vh;
         margin-bottom: 2em;
+       
     }
     .marcas div{
-        width: 100%;
+        width: 95%;
         height: 12%;
         
     }
@@ -303,8 +304,8 @@ body{
     }
     .productos-vendidos{
         margin-left: 0;
-        width: 100vw;
-        height: 755vh;
+        width: 95vw;
+        height: 760vh;
         margin-bottom: 12em;
 
     }
@@ -313,7 +314,8 @@ body{
         height: 8%;
     }
     .cont-footer{
-        margin-top: 10em;
+        margin-top: 5em;
+        width: 95vw;
     }
     .contact{
         flex-direction: row;
