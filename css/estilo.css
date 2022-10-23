@@ -8,12 +8,12 @@ body{
 }
 .container-header{
     height: 6em;
-    width: 100vw;
+    
     display: flex;
     background-color: #094D9A;
     /*justify-content: space-between;*/
     align-items: center;
-   /* padding: 0em 2em 0em 5em;  */  
+    padding: 0em 2em 0em 5em;  
 }
 .logo{
     height: 70%;
@@ -75,9 +75,9 @@ body{
 #cont-item-carousel{
    /* border: 0.5px double #094D9A;*/
     height: 80vh;
-    width: 100vw;
+    width: 80vw;
     overflow: hidden;
-    margin: 1em 2em 1em 2em;
+    margin: 1em 2em 1em 8em;
     background-color: rgba(255, 255, 255, 0.644);
     border-radius: 0.5em;
     border: 0.1em solid #094D9A;
@@ -266,10 +266,18 @@ body{
     display: none;
 }
 @media only screen and (max-width:700px){
+    .container-header{
+        width: 100vw;
+    }
+    .nav-container{
+        width: 100vw;
+    }
     #cont-item-carousel{
         height: 50vh;
-        width: 95vw;
-        margin: 0.5em 0 0.5em 0;
+        width: 100vw;
+        /*margin: 0.5em 0 0.5em 0;*/
+        margin-left: 0;
+        margin-right: 0;
     }
     .imagen-container{
     width: 100%;
@@ -291,7 +299,7 @@ body{
     }
     .marcas{
         margin-left: 0;
-        width: 95vw;
+        width: 100vw;
         height: 220vh;
         margin-bottom: 2em;
        
@@ -306,18 +314,18 @@ body{
     }
     .productos-vendidos{
         margin-left: 0;
-        width: 95vw;
-        height: 760vh;
+        width: 100vw;
+        height: 780vh;
         margin-bottom: 12em;
 
     }
     .productos-vendidos div{
-        width: 95%;
-        height: 10%;
+        width: 100%;
+        height: 8%;
     }
     .cont-footer{
         margin-top: 5em;
-        width: 95vw;
+        width: 100vw;
     }
     .contact{
         flex-direction: row;
