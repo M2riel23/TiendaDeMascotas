@@ -287,6 +287,30 @@ body{
         padding-left: 0;
        
     }
+    .marcas{
+        margin-left: 0;
+        width: 100vw;
+        margin-bottom: 42em;
+    }
+    .marcas div{
+        width: 100%;
+    }
+    .productos-vendidos{
+        margin-left: 0;
+        width: 100vw;
+        margin-bottom: 50em;
+
+    }
+    .productos-vendidos div{
+        width: 100%;
+    }
+    .cont-footer{
+        margin-top: 20em;
+    }
+    .contact{
+        flex-wrap: wrap;
+    }
+
     #check:not(:checked) , nav ul {
         display: none;
     }
