@@ -276,7 +276,7 @@ body{
         width: 100vw;
     }
     .nav-container{
-        width: 105vw; 
+        width: 100vw; 
       
     }
     #cont-item-carousel{
@@ -343,9 +343,7 @@ body{
         bottom: 1em;
         margin-left: 21em; 
         position: relative; z-index: 2;
-        margin-top: 2.2em;
-       
-          
+        margin-top: 2.2em;        
     }
     .nav-container ul  {
         display: block;
@@ -370,6 +368,7 @@ body{
     
     #check:checked ~  ul  {
     left: 0;
+
     }
     
 }
