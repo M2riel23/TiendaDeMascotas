@@ -333,6 +333,7 @@ body{
     .cont-footer{
         margin-top: 5em;
         width: 100vw;
+       
     }
     .checkbtn{
         display: block;
@@ -343,7 +344,8 @@ body{
         bottom: 1em;
         margin-left: 21em; 
         position: relative; z-index: 2;
-        margin-top: 2.2em;        
+        margin-top: 2.2em; 
+        margin-right: 2em;       
     }
     .nav-container ul  {
         display: block;
