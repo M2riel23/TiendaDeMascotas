@@ -307,20 +307,17 @@ body{
         padding: 0.5em;
     }
     .tienda{
-        display: flex;
-        padding-right: 0;
-        text-align: center;
-       
-       
+     display: none;   
     }
-    .tienda h1 {
+    /*.tienda h1 {
         font-size: 1.2em;
         margin-right: 2em;
+        width: 40vw;
        
       
       
         
-    }
+    }*/
     .logo{
         width: 35%;
     }
