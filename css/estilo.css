@@ -343,7 +343,7 @@ body{
     .icon-menu{
         display: block;
         bottom: 1em;
-        margin-left: 15em; 
+        margin-left: 19em; 
         position: relative; z-index: 2;
         margin-top: 2.2em; 
         margin-right: 0;       
@@ -354,17 +354,18 @@ body{
         top: 6em;
         left: -100%;
         background: #8A9DCA;
-        width: 95vw;
+        width: 100vw;
         height: 100vh;
         
         
     }
     
     .nav-container ul li {
-        padding: 2rem;
+        padding: 1.5rem;
         display: flex;
         justify-content: center;
         margin: 0;
+        
         
         
     }
