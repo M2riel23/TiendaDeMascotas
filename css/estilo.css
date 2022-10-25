@@ -271,20 +271,22 @@ body{
     display: none;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:450px){
     .container-header{
         width: 100vw;
+        margin: 0;
     }
     .nav-container{
         width: 100vw; 
+        margin: 0;
       
     }
     #cont-item-carousel{
         height: 50vh;
         width: 100vw;
-        /*margin: 0.5em 0 0.5em 0;*/
-        margin-left: 0;
-        margin-right: 0;  
+        margin: 0.5em 0 0.5em 0;
+        
+         
     }
     .imagen-container{
     width: 100%;
@@ -332,8 +334,7 @@ body{
     }
     .cont-footer{
         margin-top: 5em;
-        width: 100vw;
-       
+        width: 100vw;  
     }
     .checkbtn{
         display: block;
@@ -342,10 +343,10 @@ body{
     .icon-menu{
         display: block;
         bottom: 1em;
-        margin-left: 21em; 
+        margin-left: 22em; 
         position: relative; z-index: 2;
         margin-top: 2.2em; 
-        margin-right: 2em;       
+        margin-right: 0;       
     }
     .nav-container ul  {
         display: block;
@@ -353,7 +354,7 @@ body{
         top: 6em;
         left: -100%;
         background: #8A9DCA;
-        width: 100vw;
+        width: 95vw;
         height: 100vh;
         
         
