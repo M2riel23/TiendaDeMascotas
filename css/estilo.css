@@ -26,14 +26,15 @@ body{
     height: 100%;
     border-radius: 0.4em;
 }
-.container-header h1{
+.container-header span{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 3.1em;
     color: #9CDEF9;
-    margin-left: 5.5em;
+    margin-left: 5em;
     
     
 }
+
 
 .ingreso li {
     display: inline-block;
@@ -309,17 +310,14 @@ body{
     .tienda{
      /*display: none;   */
     }
-    .container-header h1 {
-        font-size: 0.8em;
-        /*margin-right: 2em;*/
-        width: 45vw;
-        position: relative;
-        right: 3em;
-       
-      
-      
+    .container-header span {
+        font-size: 1.1em;
+        margin-left: 0;
+        margin-right: 0.6em;
         
     }
+    
+    
     .logo{
        /* display: none;*/
         width: 33%;
