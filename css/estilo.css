@@ -313,7 +313,7 @@ body{
     .container-header span {
         font-size: 1.1em;
         margin-left: 0;
-        margin-right: 0.6em;
+        margin-right: 0.9em;
         
     }
     
@@ -321,7 +321,8 @@ body{
     .logo{
        /* display: none;*/
         width: 33%;
-        padding-right: 1em;
+        padding-right: 1.1em;
+        margin-right: 0.5em;
     }
     .logo img{
         width: 100%;
