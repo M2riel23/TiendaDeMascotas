@@ -232,9 +232,9 @@ padding-top: 1.8em;
     padding-left: 1em;
 }
 #iconw{
-    font-size: 3em;
+    font-size: 2.5em;
     color: #6688d8;
-    padding-top: 0.5em;
+    padding-top: 1em;
 }
 .icon i{
     text-decoration: none;
@@ -289,8 +289,10 @@ padding-top: 1.8em;
 .derechos{
     display: flex;
     justify-content: center;
-    padding-top: 4em;
+    padding-top: 8em;
     margin-top: 1em;
+    height: 20vh;
+  
     
 }
 .derechos h5{
@@ -428,7 +430,7 @@ padding-top: 1.8em;
     }
     .cont-footer{
         width: 100vw;
-        height: 95vh;
+        height: 110vh;
       
        
        
@@ -441,9 +443,19 @@ padding-top: 1.8em;
    margin-bottom: 1em;
             
    }
+   /*.what span{
+    margin-bottom: 3em;
+   }*/
    .medio-pago{
     display: inline;
     padding-top: 1em;
+    margin-top: 1em;
+   }
+   .medio-pago h4{
+    padding-top: 5em;
+   }
+   .redes{
+    padding-top: 5em;
    }
     
 }
