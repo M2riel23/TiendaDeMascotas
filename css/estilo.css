@@ -81,7 +81,7 @@ body{
     margin: 1em 2em 1em 8em;
     background-color: rgba(255, 255, 255, 0.644);
     border-radius: 0.5em;
-    border: 0.1em solid #094D9A;
+    border: 0.1em solid #8A9DCA;
     
    
 }
@@ -126,7 +126,7 @@ body{
     text-decoration: none;
 }
 .botones i{
-    color: #094D9A;
+    color: #6d8dd6;
     font-size: 28px;
 }
 .marc-titulo h2{
@@ -154,7 +154,7 @@ body{
     /*background-color: rgba(244, 245, 238, 0.932);*/
     width: 14em;
     height: 8em;
-    border: 0.1em solid #094D9A;
+    border: 0.1em solid #8A9DCA;
     border-radius: 0.5em;
     
 
