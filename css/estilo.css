@@ -131,9 +131,10 @@ body{
 }
 .marc-titulo h2{
     color: #094D9A;
-    padding-left: 2.3em;
+    padding-left: 1em;
     margin-bottom: 1em;
     font-family: 'Signika Negative', sans-serif;
+    margin: 2em 2em;
 }
 .marcas{
    /* border: 3px solid rgb(28, 28, 95);*/
@@ -165,10 +166,10 @@ body{
 }
 .produc-titulo{
     color: #094D9A;
-    padding-left: 2.3em;
+    padding-left: 2em;
     margin-bottom: 1em;
     font-family: 'Signika Negative', sans-serif;
-    padding-top: 2em;
+    margin: 2.3em 2em;
     padding-bottom: 1.2em;
 }
 .productos-vendidos{
@@ -219,7 +220,7 @@ body{
     background-color: rgba(255, 255, 255, 0.644);
     margin-top: 5em;
     /*border: 1px solid rgb(102, 10, 87);*/
-    height: 30vh;
+    height: 32vh;
     border-radius: 0.5em;
   
    
@@ -291,7 +292,7 @@ padding-top: 1.8em;
     justify-content: center;
     padding-top: 8em;
     margin-top: 1em;
-    height: 20vh;
+    height: 18vh;
   
     
 }
@@ -410,6 +411,7 @@ padding-top: 1.8em;
         background: #8A9DCA;
         width: 100vw;
         height: 100vh;
+       
         
         
     }
