@@ -17,7 +17,6 @@
     <link rel="shortcut icon" href="imagenescss/perro-gato-mascotas3.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/stylecontacto.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <script src="javascript/validacion.js"></script>
     <title>Tienda De Mascotas</title>
 </head>
 <body>
@@ -49,49 +48,53 @@
 <main>
     <h3>Contacto</h3>
     <br>
-    <form id="form" action="/" >
+    <form id="form"  >
         
             <p class="datos">Datos Personales</p>
-           
             <br>
         <div class="input-control">
         <label for="nombre">Nombre:</label >
         
-        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre...">
-       <div class="error"></div>
+        <input type="text" name="nombre" id="contact-nombre" placeholder="Escribe tu nombre..." onkeyup="validacionNombre()">
+        <span id="nombre-error"></span>
         
     </div>
     <br>
     <div class="input-control">
         <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido"  id="apellido" placeholder="Escribe tu Apellido...">
-    <div class="error"></div>
+        <input type="text" name="apellido"  id="contact-apellido" placeholder="Escribe tu Apellido..."onkeyup="validacionApellido()" >
+        <span id="apellido-error"></span>
     </div>
     <br>
     <div class="input-control">
         <label for="email">Correo Electronico:</label>
-        <input type="text" name="email" id="email" placeholder="Escribe tu correo...">
-    <div class="error"></div>
+        <input type="text" name="email" id="contact-email" placeholder="Escribe tu correo..."onkeyup="validacionEmail()" >
+        <span id="email-error"></span>
     </div>
     <br>
-    <div class="input-control">
-        <label for="telefono">Teléfono:</label>
-        <input type="text" name="telefono" id="telefono" placeholder="Escribe tu teléfono..."> 
-    <div class="error"></div>
-    </div>
-    <br>
-    
-    <p class="consulta">
-        Consultas: 
-    </p>
+<div class="input-control">
+    <label for="telefono"> Teléfono:</label>
+    <input type="text" name="telefono" id="contact-telefono" placeholder="3415847892"onkeyup="validacionTelefono()" >
+    <span id="telefono-error"></span>
 
-    <textarea name="consulta" id="consulta" cols="30" rows="10">Escribe tu consulta..</textarea>
+</div>
+
+<div class="consulta">
+    <p>Consultas:</p>
+</div>
+
+<div class="input-control">
+    <textarea name="consulta" id="contact-consulta" cols="30" rows="10"onkeyup="validacionConsulta()" >Escribe tu consulta..</textarea>
+    <span id="consulta-error"></span>
+</div>
     <br>
-    <button type="submit">Enviar</button>
-        
+
+    <button onclick="return validacionForm()" type="submit">Enviar</button>
+    <span id="submit-error"></span>  
 
     </form>
 </main>
+<script src="javascript/validacion.js"></script>
 
     <footer class="cont-footer">
         <div class="contact">

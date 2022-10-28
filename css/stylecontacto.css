@@ -34,7 +34,7 @@ label{
 }
 form{
     border-radius: 5px;
-    background-color: #849fbe;
+    background-color: #aac1db;
     padding: 1%;
     margin: 0 21%;
     margin-bottom: 10em;
@@ -44,6 +44,7 @@ form{
 input[type=text],
 input[type=email],
 input[type=textarea],
+input[type=text],
 
 
 select{
@@ -75,9 +76,28 @@ button[type=submit]{
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.9em;
+    font-family: 'Signika Negative', sans-serif;
+}
+button:hover{
+    background-color: #d2d9e0;
 }
 input , label{
     display: block;
 }
 
+.input-control span{
+
+    bottom: 12px;
+    right: 17px;
+    font-size: 12px;
+    color: rgb(187, 32, 32);
+}
+#submit-error{
+    color: rgb(187, 32, 32) ;
+}
+
+.input-control span i{
+    color: rgb(7, 139, 64);
+    font-size: 25px;
+}
 
