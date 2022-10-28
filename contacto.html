@@ -17,6 +17,7 @@
     <link rel="shortcut icon" href="imagenescss/perro-gato-mascotas3.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/stylecontacto.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="javascript/validacion.js"></script>
     <title>Tienda De Mascotas</title>
 </head>
 <body>
@@ -48,50 +49,61 @@
 <main>
     <h3>Contacto</h3>
     <br>
-    <form action="/">
-        <div>
+    <form id="form" action="/" >
+        
             <p class="datos">Datos Personales</p>
+           
             <br>
-        <label for="nombre" >Nombre:</label >
-        <input type="text" required placeholder="Escribe tu nombre...">
+        <div class="input-control">
+        <label for="nombre">Nombre:</label >
+        
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre...">
+       <div class="error"></div>
+        
     </div>
     <br>
-    <div>
+    <div class="input-control">
         <label for="apellido">Apellido:</label>
-        <input type="text" required placeholder="Escribe tu Apellido...">
+        <input type="text" name="apellido"  id="apellido" placeholder="Escribe tu Apellido...">
+    <div class="error"></div>
     </div>
     <br>
-    <div>
-        <label for="correo">Correo Electronico:</label>
-        <input type="email" required placeholder="Escribe tu correo...">
+    <div class="input-control">
+        <label for="email">Correo Electronico:</label>
+        <input type="text" name="email" id="email" placeholder="Escribe tu correo...">
+    <div class="error"></div>
     </div>
     <br>
-    <div>
+    <div class="input-control">
         <label for="telefono">Teléfono:</label>
-        <input type="text" placeholder="Escribe tu teléfono..."> 
+        <input type="text" name="telefono" id="telefono" placeholder="Escribe tu teléfono..."> 
+    <div class="error"></div>
     </div>
     <br>
-    <div>
+    <div class="input-control">
         <label for="cuidad">Ciudad:</label>
-        <input type="text" placeholder="Escribe tu cuidad...">
+        <input type="text" name="ciudad" id="ciudad" placeholder="Escribe tu cuidad...">
+    <div class="error"></div>
     </div>
     <br>
-    <div>
+    <div class="input-control">
         <label for="pais">Pais:</label>
-        <input type="text" placeholder="Escribe tu pais...">
+        <input type="text" name="pais" id="pais" placeholder="Escribe tu pais...">
+    <div class="error"></div>
     </div>
     <br>
     <p class="consulta">
         Consultas: 
     </p>
 
-    <textarea name="" id="" cols="30" rows="10">Escribe tu consulta..</textarea>
+    <textarea name="consulta" id="consulta" cols="30" rows="10">Escribe tu consulta..</textarea>
     <br>
-    <input type="submit"></input>
+    <button type="submit">Enviar</button>
         
 
     </form>
 </main>
+
     <footer class="cont-footer">
         <div class="contact">
         <div>

@@ -17,12 +17,13 @@ h3{
     text-align: center;
     font-size: 2.5em;
 }
-label,input{
-    font-size: 0.9vw;
-    font-family: 'Signika Negative', sans-serif;
+input{
+    font-size: 0.7vw;
+    width: 8%;
+    
 }
 label{
-    
+    font-family: 'Signika Negative', sans-serif;
     font-size: 0.9em;
     color: #062f5e;
 }
@@ -35,8 +36,9 @@ form{
     border-radius: 5px;
     background-color: #849fbe;
     padding: 1%;
-    margin: 0 20%;
+    margin: 0 21%;
     margin-bottom: 10em;
+    
 
 }
 input[type=text],
@@ -56,14 +58,14 @@ select{
 }
 
 textarea{
-    width: 85%;
+    width: 60%;
     margin-left: 0.8em;
 }
 input[type=submit]:hover{
     background-color: #94aac4;
     
 }
-input[type=submit]{
+button[type=submit]{
     width: 30%;
     background-color: #3369a7;
     color: #062f5e;
@@ -74,3 +76,8 @@ input[type=submit]{
     cursor: pointer;
     font-size: 0.9em;
 }
+input , label{
+    display: block;
+}
+
+
