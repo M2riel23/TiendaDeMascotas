@@ -261,7 +261,7 @@ padding-top: 1.8em;
     display: none;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:368px){
     body{
         margin: 0;
         padding: 0;
