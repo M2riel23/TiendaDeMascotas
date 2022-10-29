@@ -532,7 +532,7 @@ padding-top: 1.8em;
     }
     .cont-footer{
         width: 100vw;
-        height: 110vh;   
+        height: 105vh;   
     }
     .contact {  
         display: block;
@@ -548,7 +548,10 @@ padding-top: 1.8em;
     .medio-pago h4{
     padding-top: 5em;
     }
-
+    .medio-pago img{
+        width: 70%;
+        height: 75%;
+    }
     .redes{
     padding-top: 5em; }   
 }
