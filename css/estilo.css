@@ -8,18 +8,14 @@ body{
 }
 .container-header{
     height: 6em;
-    
     display: flex;
     background-color: #094D9A;
-    /*justify-content: space-between;*/
     align-items: center;
     padding: 0em 2em 0em 5em;  
 }
 .logo{
     height: 70%;
     width: 10%;
-    
-
 }
 .logo img{
     width: 100%;
@@ -30,23 +26,17 @@ body{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 3.1em;
     color: #9CDEF9;
-    margin-left: 5em;
-    
-    
+    margin-left: 5em;   
 }
-
-
 .ingreso li {
     display: inline-block;
 }
-
 .ingreso a{
     text-decoration: none;
     padding: 0.8em;
     color: #8A9DCA;
     font-size: 1.1em;
     font-family: 'Signika Negative', sans-serif;
-
 }
 
 .nav-container{
@@ -74,7 +64,6 @@ body{
 }
 
 #cont-item-carousel{
-   /* border: 0.5px double #094D9A;*/
     height: 80vh;
     width: 80vw;
     overflow: hidden;
@@ -82,30 +71,22 @@ body{
     background-color: rgba(255, 255, 255, 0.644);
     border-radius: 0.5em;
     border: 0.1em solid #8A9DCA;
-    
-   
 }
 .item-carousel-container{
-   /* border: 1px double black;*/
     height: 100%;
-    position: relative; 
-        
+    position: relative;        
 }
 
 .img-carousel{
-    
-    /*background-color: darkgoldenrod;*/
     height: 100%;
 }
 .imagen-container{
-   /* background-color: antiquewhite;*/
     height: 85%;
     width: 60%;
     position: absolute;
     left: 14em;
     top: 1.5em; 
-    border-radius: 1em;  
-    ; 
+    border-radius: 1em; 
 }
 .imagen-container img{
     width: 100%;
@@ -137,7 +118,6 @@ body{
     margin: 2em 2em;
 }
 .marcas{
-   /* border: 3px solid rgb(28, 28, 95);*/
     margin-top: 0.5em;
     height: 50vh;
     width: 70vw;
@@ -151,7 +131,6 @@ body{
 }
 
 .marcas div {
-    /*background-color: rgba(244, 245, 238, 0.932);*/
     width: 14em;
     height: 8em;
     border: 0.1em solid #8A9DCA;
@@ -173,7 +152,6 @@ body{
     padding-bottom: 1.2em;
 }
 .productos-vendidos{
-   /* border: 2px solid rgb(98, 197, 98);*/
     margin-top: 0.6em;
     height: 180vh;
     width: 70vw;
@@ -182,7 +160,6 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-   /* background-color: rgba(255, 255, 255, 0.644);*/
     border-radius: 0.5em;
 }
 
@@ -219,11 +196,8 @@ body{
 .cont-footer{
     background-color: rgba(255, 255, 255, 0.644);
     margin-top: 5em;
-    /*border: 1px solid rgb(102, 10, 87);*/
     height: 32vh;
-    border-radius: 0.5em;
-  
-   
+    border-radius: 0.5em; 
 }
 .what {
 padding-top: 1.8em;
@@ -245,56 +219,35 @@ padding-top: 1.8em;
     margin-left: 0;
     color: #6688d8;
 }
-/*.cont-footer div h3{
-    padding-top: 1em;
-    
-    color: #9CDEF9;
 
-}*/
 .contact{
     display: flex;
     font-family: 'Signika Negative', sans-serif;
     font-size: 1em;
     width: 100vw;
-   /* padding-left: 1em;*/
     margin-top: 0.8em;
-   /* margin-bottom: 1.3em;*/
     color: #094D9A;
     justify-content: space-around;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 .medio-pago{
     padding-top: 1.8em;
-   width: 18vw;
-   height: 22vh;
-
-    
+    width: 18vw;
+    height: 22vh;
 }
 .medio-pago img{
     padding-top: 1.5em;
-   /* border: 0.1em solid #094D9A;
-    border-radius: 0.5em;*/
 }
 .medio-pago h4{
     font-family: 'Signika Negative', sans-serif;
-    /*font-size: 1.1em;*/
-    /*padding-left: 3em;
-    margin-top: 0.8em;
-    margin-bottom: 1.3em;*/
-    color: #094D9A;
-  
-    
-    
+    color: #094D9A;  
 }
 .derechos{
     display: flex;
     justify-content: center;
     padding-top: 8em;
     margin-top: 1em;
-    height: 18vh;
-  
-    
+    height: 18vh;  
 }
 .derechos h5{
     font-family: 'Signika Negative', sans-serif;
@@ -303,32 +256,32 @@ padding-top: 1.8em;
 .icon-menu img{
     width: 4em;
     border-radius: 0.5em;
-    /*display: flex;*/   
 }
 .icon-menu , #check{
     display: none;
 }
 
 @media only screen and (max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    
     .container-header{
         width: 100vw;
         display: flex;
         padding: 0 0 0 1em;
-        justify-content: space-around;
-        
-       
+        justify-content: space-around;  
     }
     .nav-container{
         width: 100vw; 
-        margin: 0;
-      
+        margin: 0;   
     }
     #cont-item-carousel{
         height: 50vh;
         width: 100vw;
-        margin: 0.5em 0 0.5em 0;
-        
-         
+        margin: 0.5em 0 0.5em 0;    
     }
     .imagen-container{
     width: 100%;
@@ -354,15 +307,13 @@ padding-top: 1.8em;
     
     
     .logo{
-       /* display: none;*/
         width: 33%;
         padding-right: 1.1em;
         margin-right: 0.5em;
     }
     .logo img{
         width: 100%;
-        height: 100%;
-       
+        height: 100%; 
     }
     
     .marcas{
@@ -410,54 +361,38 @@ padding-top: 1.8em;
         left: -100%;
         background: #8A9DCA;
         width: 100vw;
-        height: 100vh;
-       
-        
-        
+        height: 100vh;  
     }
     
     .nav-container ul li {
         padding: 1.5rem;
         display: flex;
         justify-content: center;
-        margin: 0;
-        
-        
-        
+        margin: 0;   
     }
     
     #check:checked ~  ul  {
     left: 0;
-
     }
     .cont-footer{
         width: 100vw;
-        height: 110vh;
-      
-       
-       
+        height: 110vh;   
     }
-    .contact {
-        
-   display: block;
-   text-align: center;
-   padding: 1em;
-   margin-bottom: 1em;
-            
-   }
-   /*.what span{
-    margin-bottom: 3em;
-   }*/
-   .medio-pago{
+    .contact {  
+        display: block;
+        text-align: center;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    .medio-pago{
     display: inline;
     padding-top: 1em;
     margin-top: 1em;
-   }
-   .medio-pago h4{
+    }
+    .medio-pago h4{
     padding-top: 5em;
-   }
-   .redes{
-    padding-top: 5em;
-   }
-    
+    }
+
+    .redes{
+    padding-top: 5em; }   
 }
