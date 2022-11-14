@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.datos{
+    font-family: 'Signika Negative', sans-serif;
+    color: #062f5e;
+    text-align: center;
+    font-size: 1.5em;
+}
+h3{
+    color: #094D9A;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 1em 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 2.5em;
+}
+input{
+    font-size: 0.7vw;
+    width: 8%;
+    
+}
+label{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 0.9em;
+    color: #062f5e;
+}
+.consulta{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 0.9em;
+    color: #062f5e;
+}
+form{
+    border-radius: 5px;
+    background-color: #aac1db;
+    padding: 1%;
+    margin: 0 21%;
+    margin-bottom: 10em;
+    
+
+}
+input[type=text],
+input[type=email],
+input[type=textarea],
+input[type=text],
+
+
+select{
+    width: 80%;
+    padding: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    border: 1vw;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+textarea{
+    width: 60%;
+    margin-left: 0.8em;
+}
+input[type=submit]:hover{
+    background-color: #94aac4;
+    
+}
+button[type=submit]{
+    width: 30%;
+    background-color: #3369a7;
+    color: #062f5e;
+    padding: 15px 20px;
+    margin: 15px 19em 20px 17em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Signika Negative', sans-serif;
+}
+button:hover{
+    background-color: #d2d9e0;
+}
+input , label{
+    display: block;
+}
+
+.input-control span{
+
+    bottom: 12px;
+    right: 17px;
+    font-size: 12px;
+    color: rgb(187, 32, 32);
+}
+#submit-error{
+    color: rgb(187, 32, 32) ;
+}
+
+.input-control span i{
+    color: rgb(7, 139, 64);
+    font-size: 25px;
+}
+
+@media (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    .icon-menu{
+        padding-left: 0em;
+    }
+    .datos{
+        font-size: 1.6em;
+        padding-top: 0.5em;
+    }
+    
+    input{
+        font-size: 1vw;
+        width: 9%;
+        height: 3%;
+        
+    }
+    label{
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 1em;
+        color: #062f5e;
+    }
+    .consulta{
+        font-size: 1em;
+        padding-top: 0.4em;
+    }
+    form{
+        padding: 1%;
+        margin: 0 6%;
+        margin-left: 5em;
+        margin-bottom: 20em;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=textarea],
+    input[type=text],
+    
+    
+    select{
+        width: 85%;
+    }
+    
+    
+    button[type=submit]{
+        margin: 15px 19em 20px 16em;
+    }
+    .derechos h5{
+        padding-top:  20em;
+    }
+    .cont-footer{
+        width: 100vw;
+        height: 15vh;
+        margin-bottom: 1em;   
+    }
+    .contact {  
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 0.3;
+        margin-bottom: 1em;
+    }
+    .what{
+        margin-right: 0;   
+    }
+    .medio-pago{
+    display: inline;
+    padding-top: 1em;
+    margin-top: 1em;
+    }
+    .medio-pago h4{
+    padding-top: 0em;
+    }
+    .medio-pago img{
+    width: 99%;
+    height: 90%;
+    }
+    #iconw{
+        font-size: 2.3em;
+    }
+    .icon i{  
+        font-size: 2.3em;
+    }
+    .redes{
+    padding-top: 2em;
+    padding-left: 0;
+    }   
+}
+
+
+@media (max-width:368px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    
+    .datos{
+        font-size: 1.4em;
+        padding-top: 0.5em;
+    }
+    h3{
+        font-size: 2.3em;
+    }
+    input{
+        font-size: 1.2vw;
+        width: 9%;
+        height: 3%;
+        
+    }
+    label{
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 1em;
+        color: #062f5e;
+    }
+    .consulta{
+        font-size: 1em;
+        padding-top: 0.4em;
+    }
+    form{
+        padding: 1%;
+        margin: 0 2%;
+        margin-left: 0.5em;
+        margin-bottom: 15em;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=textarea],
+    input[type=text],
+    
+    
+    select{
+        width: 85%;
+        font-size: 0.8em;
+    }
+    
+    
+    button[type=submit]{
+        margin: 15px 20em 20px 8.5em;
+    }
+    .derechos{
+        margin-top: 10em;
+    }
+    .derechos h5{
+        padding-top:  25em;
+    }
+    .cont-footer{
+        width: 100vw;
+        height: 115vh;   
+    }
+    .contact {  
+        display: block;
+        text-align: center;
+        padding: 1em;
+        margin-bottom: 1em;  
+    }
+    .medio-pago{
+    display: inline;
+    padding-top: 1em;
+    margin-top: 1em;
+    }
+    .medio-pago h4{
+    padding-top: 5em;
+    }
+    .medio-pago img{
+        width: 70%;
+        height: 75%;
+    }
+    .redes{
+    padding-top: 5em; } 
+    #iconw{
+        font-size: 2.3em;
+    }
+    .icon i{  
+        font-size: 2.3em;
+    }
+    
+}
+    
+    
+
+    
+
+

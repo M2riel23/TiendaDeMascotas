@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/42ce66789a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Rubik+Moonrocks&family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Rubik+Moonrocks&family=Signika+Negative:wght@700&family=Yeseva+One&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="imagenescss/perro-gato-mascotas3.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/stylecontacto.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Tienda De Mascotas</title>
+</head>
+<body>
+    <header class="container-header">
+        <div class="logo">
+            <img src="imagenescss/perro-gato-mascotas3.jpg" alt="logo">
+        </div>
+
+            <span><h4 class="animate__animated animate__backInRight">Tienda De Mascotas</h4></span> 
+
+</header>
+
+<nav class="nav-container">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="icon-menu"><img src="imagenescss/image2.webp" alt=""></i>
+    </label>
+    <ul>  
+        <li><a href="index.html">Inicio</a> </li>
+        <li><a href="gatos.html">Gatos</a></li>
+        <li><a href="perros.html">Perros</a></li>
+        <li><a href="aves.html">Aves</a></li>
+        <li><a href="peces.html">Peces</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="sucursales.html">Sucursales</a></li>
+    </ul>   
+</nav>
+
+<main>
+    <h3>Contacto</h3>
+    <br>
+    <form id="form"  >
+        
+            <p class="datos">Datos Personales</p>
+            <br>
+        <div class="input-control">
+        <label for="nombre">Nombre:</label >
+        
+        <input type="text" name="nombre" id="contact-nombre" placeholder="Escribe tu nombre..." onkeyup="validacionNombre()">
+        <span id="nombre-error"></span>
+        
+    </div>
+    <br>
+    <div class="input-control">
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido"  id="contact-apellido" placeholder="Escribe tu Apellido..."onkeyup="validacionApellido()" >
+        <span id="apellido-error"></span>
+    </div>
+    <br>
+    <div class="input-control">
+        <label for="email">Correo Electronico:</label>
+        <input type="text" name="email" id="contact-email" placeholder="Escribe tu correo..."onkeyup="validacionEmail()" >
+        <span id="email-error"></span>
+    </div>
+    <br>
+<div class="input-control">
+    <label for="telefono"> Teléfono:</label>
+    <input type="text" name="telefono" id="contact-telefono" placeholder="3415847892"onkeyup="validacionTelefono()" >
+    <span id="telefono-error"></span>
+
+</div>
+
+<div class="consulta">
+    <p>Consultas:</p>
+</div>
+
+<div class="input-control">
+    <textarea name="consulta" id="contact-consulta" cols="30" rows="10"onkeyup="validacionConsulta()" >Escribe tu consulta..</textarea>
+    <span id="consulta-error"></span>
+</div>
+    <br>
+
+    <button onclick="return validacionForm()" type="submit">Enviar</button>
+    <span id="submit-error"></span>  
+
+    </form>
+</main>
+<script src="javascript/validacion.js"></script>
+
+    <footer class="cont-footer">
+        <div class="contact">
+        <div>
+            <h4 class="what">Contactanos por Whatsapp</h4>
+            <span>
+            <a href="https://www.Whatsapp.com/"><i id="iconw" class="fa-brands fa-whatsapp"></i></a>
+            341856210
+        </span>
+        </div>
+        <div>
+            <h4 class="redes">Seguinos en:</h4>
+            <a class="icon" href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="icon" href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter"></i></a> 
+            <a class="icon" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="medio-pago">
+            <h4> Medios de pago</h4>
+            <img src="imagenescss/medios-de-pago.png" alt="medios de pago">
+            
+            </div>
+        </div>
+        <div class="derechos">
+        
+            <h5>@2022 Todos los Derechos Reservados</h5>
+    </div>
+        
+        
+
+    </footer> 
+</body>

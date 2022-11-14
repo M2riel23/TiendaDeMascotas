@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eaf4f8;
+}
+.container-header{
+    height: 6em;
+    display: flex;
+    background-color: #094D9A;
+    align-items: center;
+    padding: 0em 2em 0em 5em;  
+}
+.logo{
+    height: 70%;
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.4em;
+}
+.container-header span{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 3.1em;
+    color: #9CDEF9;
+    margin-left: 5em;   
+}
+.ingreso li {
+    display: inline-block;
+}
+.ingreso a{
+    text-decoration: none;
+    padding: 0.8em;
+    color: #8A9DCA;
+    font-size: 1.1em;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.nav-container{
+    height: 4.5em;
+    display: flex;
+    background-color: #8A9DCA;
+    justify-content: center;
+    align-items: center; 
+}
+.nav-container li {
+    display: inline-block;
+    height: 1.5rem;
+    
+}
+.nav-container a{
+    text-decoration: none;
+    padding: 2rem;
+    color: #094D9A;
+    font-size: 1.3em;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.nav-container a:hover{
+    color: #9CDEF9;
+}
+
+#cont-item-carousel{
+    height: 80vh;
+    width: 80vw;
+    overflow: hidden;
+    margin: 1em 2em 1em 8em;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 0.5em;
+    border: 0.1em solid #8A9DCA;
+}
+.item-carousel-container{
+    height: 100%;
+    position: relative;        
+}
+
+.img-carousel{
+    height: 100%;
+}
+.imagen-container{
+    height: 85%;
+    width: 60%;
+    position: absolute;
+    left: 14em;
+    top: 1.5em; 
+    border-radius: 1em; 
+}
+.imagen-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+}
+.botones{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;  
+}
+.botones a{
+    text-decoration: none;
+}
+.botones i{
+    color: #6d8dd6;
+    font-size: 28px;
+}
+.marc-titulo h2{
+    color: #094D9A;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 2em 2em;
+}
+.marcas{
+    margin-top: 0.5em;
+    height: 50vh;
+    width: 70vw;
+    margin-left: 12em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 0.5em;
+}
+
+.marcas div {
+    width: 14em;
+    height: 8em;
+    border: 0.1em solid #8A9DCA;
+    border-radius: 0.5em;
+    
+
+}
+.marcas img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+}
+.produc-titulo{
+    color: #094D9A;
+    padding-left: 2em;
+    margin-bottom: 1em;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 2.3em 2em;
+    padding-bottom: 1.2em;
+}
+.productos-vendidos{
+    margin-top: 0.6em;
+    height: 180vh;
+    width: 70vw;
+    margin-left: 12em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.productos-vendidos div{
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 23%;
+    height: 32%;
+    text-align: center;
+    border-radius: 0.5em;
+    border: 0.1em solid #8A9DCA;
+    
+}
+
+.productos-vendidos img {
+    width: 100%;
+    height: 73%;
+    border-radius: 0.5em;
+}
+.precio{
+    font-family: 'Signika Negative', sans-serif;
+    color: #094D9A;
+}
+.boton-comprar{
+    background-color: #094D9A;
+    color: #9CDEF9;
+    width: 9em;
+    height: 2.1em;
+    margin-top: 0.5em;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 0.5em;
+    
+}
+.cont-footer{
+    background-color: rgba(255, 255, 255, 0.644);
+    margin-top: 5em;
+    height: 32vh;
+    border-radius: 0.5em; 
+}
+.what {
+padding-top: 1.8em;
+}
+.redes{
+    padding-top: 1.8em;
+    padding-left: 1em;
+}
+#iconw{
+    font-size: 2.5em;
+    color: #6688d8;
+    padding-top: 1em;
+}
+.icon i{
+    text-decoration: none;
+    font-size: 2.5em;
+    padding: 0.3em;
+    padding-top: 1em;
+    margin-left: 0;
+    color: #6688d8;
+}
+
+.contact{
+    display: flex;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1em;
+    width: 100vw;
+    margin-top: 0.8em;
+    color: #094D9A;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+.medio-pago{
+    padding-top: 1.8em;
+    width: 18vw;
+    height: 22vh;
+}
+.medio-pago img{
+    padding-top: 1.5em;
+}
+.medio-pago h4{
+    font-family: 'Signika Negative', sans-serif;
+    color: #094D9A;  
+}
+.derechos{
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+    margin-top: 1em;
+    height: 18vh;  
+}
+.derechos h5{
+    font-family: 'Signika Negative', sans-serif;
+    color: #094D9A;
+}
+.icon-menu img{
+    width: 4em;
+    border-radius: 0.5em;
+}
+.icon-menu , #check{
+    display: none;
+}
+@media  (max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    
+    .container-header{
+        width: 100vw;
+        display: flex;
+        padding: 0 0 0 1em;
+        justify-content: space-around;  
+    }
+    .nav-container{
+        width: 100vw; 
+        margin: 0;   
+    }
+    #cont-item-carousel{
+        height: 65vh;
+        width: 98vw;
+        margin: 0.5em 0 0.5em 0;    
+    }
+    .imagen-container{
+    width: 80%;
+    height: 100%;   
+    left: 4.8em;
+    top: 0;
+    
+    }
+    .imagen-container img{
+        border-radius: 0.4em;
+        width: 100%;
+    }
+    .botones{
+        padding: 0.9em;
+    }
+    
+    .container-header span {
+        font-size: 2.6em;
+        margin-left: 0;
+        margin-right: 1.7em;
+        
+    }
+    
+    
+    .logo{
+        width: 22%;
+        padding-right: 1em;
+        margin-right: 1em;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    
+    .marcas{
+        margin-left: 0;
+        width: 100vw;
+        height: 110vh;
+        margin-bottom: 2em;
+    }
+    .marcas div{
+        width: 46%;
+        height: 20%;
+        
+    }
+    
+    .productos-vendidos{
+        margin-left: 0;
+        width: 100vw;
+        height: 430vh;
+        margin-bottom: 12em;
+
+    }
+    .productos-vendidos div{
+        width: 45%;
+        height: 16%;
+    }
+    .cont-footer{
+        margin-top: 5em;
+        width: 100vw; 
+        margin: 0; 
+        padding: 0;
+    }
+    .checkbtn{
+        display: block;
+    
+    }
+    .icon-menu{
+        display: block;
+        bottom: 1em;
+        margin-left: 40em; 
+        position: relative; z-index: 2;
+        margin-top: 2.2em;        
+    }
+    .icon-menu img{
+        margin-left: 2em; 
+        
+    }
+    .nav-container ul  {
+        display: block;
+        position: absolute; z-index: 1;
+        top: 6em;
+        left: -100%;
+        background: #8A9DCA;
+        width: 100vw;
+        height: 100vh;  
+    }
+    
+    .nav-container ul li {
+        padding: 1.8rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;   
+    }
+    
+    #check:checked ~  ul  {
+    left: 0;
+    }
+    .cont-footer{
+        width: 100vw;
+        height: 35vh;   
+    }
+    .contact {  
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 0.3;
+        margin-bottom: 1em;
+    }
+    .what{
+        margin-right: 0;   
+    }
+    .medio-pago{
+    display: inline;
+    padding-top: 1em;
+    margin-top: 1em;
+    }
+    .medio-pago h4{
+    padding-top: 0em;
+    }
+    .medio-pago img{
+    width: 99%;
+    height: 90%;
+    }
+    #iconw{
+        font-size: 2.3em;
+    }
+    .icon i{  
+        font-size: 2.3em;
+    }
+    .redes{
+    padding-top: 2em;
+    padding-left: 0;
+    }   
+}
+
+
+
+
+@media (max-width:368px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    
+    .container-header{
+        width: 100vw;
+        display: flex;
+        padding: 0 0 0 1em;
+        justify-content: space-around;  
+    }
+    .nav-container{
+        width: 100vw; 
+        margin: 0;   
+    }
+    #cont-item-carousel{
+        height: 50vh;
+        width: 100vw;
+        margin: 0.5em 0 0.5em 0;    
+    }
+    .imagen-container{
+    width: 100%;
+    height: 100%;   
+    left:0;
+    top: 0;
+    
+    }
+    .imagen-container img{
+        border-radius: 0.4em;
+        width: 100%;
+    }
+    .botones{
+        padding: 0.5em;
+    }
+    
+    .container-header span {
+        font-size: 1.1em;
+        margin-left: 0;
+        margin-right: 1.7em;
+        
+    }
+    
+    
+    .logo{
+        width: 33%;
+        padding-right: 1.1em;
+        margin-right: 0.5em;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%; 
+    }
+    
+    .marcas{
+        margin-left: 0;
+        width: 100vw;
+        height: 220vh;
+        margin-bottom: 2em;
+    }
+    .marcas div{
+        width: 95%;
+        height: 12%;
+        
+    }
+    
+    .productos-vendidos{
+        margin-left: 0;
+        width: 100vw;
+        height: 780vh;
+        margin-bottom: 12em;
+
+    }
+    .productos-vendidos div{
+        width: 95%;
+        height: 8%;
+    }
+    .cont-footer{
+        margin-top: 5em;
+        width: 100vw;  
+    }
+    .checkbtn{
+        display: block;
+    
+    }
+    .icon-menu{
+        display: block;
+        bottom: 1em;
+        margin-left: 15.7em; 
+        position: relative; z-index: 2;
+        margin-top: 2.2em;        
+    }
+    .nav-container ul  {
+        display: block;
+        position: absolute; z-index: 1;
+        top: 6em;
+        left: -100%;
+        background: #8A9DCA;
+        width: 100vw;
+        height: 100vh;  
+    }
+    
+    .nav-container ul li {
+        padding: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;   
+    }
+    
+    #check:checked ~  ul  {
+    left: 0;
+    }
+    .cont-footer{
+        width: 100vw;
+        height: 105vh;   
+    }
+    .contact {  
+        display: block;
+        text-align: center;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    .medio-pago{
+    display: inline;
+    padding-top: 1em;
+    margin-top: 1em;
+    }
+    .medio-pago h4{
+    padding-top: 5em;
+    }
+    .medio-pago img{
+        width: 70%;
+        height: 75%;
+    }
+    .redes{
+    padding-top: 5em; }   
+}
+
+
+
