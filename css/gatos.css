@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    width: 100vw;
+    height: 10em;
+    display: flex;
+    justify-content: space-around;  
+    background-color: #9a6009;
+    align-items: center;
+    padding: 0em 2em 0em 5em;
+    margin-left: 0;
+    margin-right: 1.7em;
+    text-decoration: none;
+    padding: 2rem;
+    
+}
+
+.container-header span{
+    font-size: 3em;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #e6dfc8;
+}
+
+
+.nav-container{
+    height: 4.5em;
+    display: flex;
+    background-color: #caba8a;
+    justify-content: center;
+    align-items: center; 
+}
+.nav-container li {
+    display: inline-block;
+    height: 1.5rem;
+    
+}
+.nav-container a{
+    text-decoration: none;
+    padding: 2rem;
+    color: #9a7d09;
+    font-size: 1.75em;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.nav-container a:hover{
+    color: #f9d19c;
+}
+
+.item1 { grid-area: izq; }
+.item2 { grid-area: A; }
+.item3 { grid-area: B; }
+.item4 { grid-area: C; }
+.item5 { grid-area: D; }
+.item6 { grid-area: E; }
+.item7 { grid-area: F; }
+.item8 { grid-area: G; }
+.item9 { grid-area: H; }
+.item10 { grid-area: I; }
+.item11 { grid-area: foot; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'izq izq A B C'
+  'izq izq D E F'
+  'izq izq G H I'
+  'foot foot foot foot foot';
+  grid-template-columns: 175px 175px auto auto auto;
+  grid-gap: 2px;
+  background-color: #f3eebb;
+  padding: 10px;
+  align-items: stretch;
+}
+
+.grid-container > div {
+    
+    background-color: #f3eebb;
+    text-align: center;
+    padding: 10px 0;
+    font-size: large;
+    font-family: 'Signika Negative', sans-serif;
+    
+    
+}
+
+.item1 > p {
+    text-align: left;
+    color: #603c06;
+    padding: 1em 0.5em;
+}
+
+.item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10{
+
+    border-color: #9a6009;
+    border-style: solid;
+    border-width: 0.05em;
+    border-radius: 0.5em;
+
+}
+
+.grid-container > div > img{
+margin-top: 25px;
+width: 50%;
+height: 50%;
+align-content: bottom;
+}
+
+.grid-container > div > p, button{
+    
+    align-content: center;
+    justify-content: normal;
+    
+}
+
+.cont-footer{
+        color: #603c06;
+}
